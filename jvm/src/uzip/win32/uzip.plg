@@ -1,0 +1,80 @@
+--------------------Configuration: uzip - Win32 Debug--------------------
+Begining build with project "F:\jvm\src\uzip\win32\uzip.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /I ".." /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/uzip.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/uzip.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/uzip.pdb" /debug /machine:I386 /out:"Debug/uzip.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP11F.tmp" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /I ".." /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/uzip.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\jvm\src\uzip\crc32.c"
+"F:\jvm\src\uzip\crctab.c"
+"F:\jvm\src\uzip\crypt.c"
+"F:\jvm\src\uzip\envargs.c"
+"F:\jvm\src\uzip\explode.c"
+"F:\jvm\src\uzip\extract.c"
+"F:\jvm\src\uzip\fileio.c"
+"F:\jvm\src\uzip\globals.c"
+"F:\jvm\src\uzip\inflate.c"
+"F:\jvm\src\uzip\list.c"
+"F:\jvm\src\uzip\match.c"
+"F:\jvm\src\uzip\win32\nt.c"
+"F:\jvm\src\uzip\process.c"
+"F:\jvm\src\uzip\ttyio.c"
+"F:\jvm\src\uzip\unreduce.c"
+"F:\jvm\src\uzip\unshrink.c"
+"F:\jvm\src\uzip\unzip.c"
+"F:\jvm\src\uzip\win32\win32.c"
+"F:\jvm\src\uzip\zipinfo.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSP11F.tmp" 
+Creating temp file "C:\TEMP\RSP120.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/uzip.pdb" /debug /machine:I386 /out:"Debug/uzip.exe" /pdbtype:sept 
+.\Debug\crc32.obj
+.\Debug\crctab.obj
+.\Debug\crypt.obj
+.\Debug\envargs.obj
+.\Debug\explode.obj
+.\Debug\extract.obj
+.\Debug\fileio.obj
+.\Debug\globals.obj
+.\Debug\inflate.obj
+.\Debug\list.obj
+.\Debug\match.obj
+.\Debug\nt.obj
+.\Debug\process.obj
+.\Debug\ttyio.obj
+.\Debug\unreduce.obj
+.\Debug\unshrink.obj
+.\Debug\unzip.obj
+.\Debug\win32.obj
+.\Debug\zipinfo.obj>
+Creating command line "link.exe @C:\TEMP\RSP120.tmp" 
+Compiling...
+crc32.c
+crctab.c
+crypt.c
+envargs.c
+explode.c
+extract.c
+fileio.c
+globals.c
+inflate.c
+list.c
+match.c
+nt.c
+process.c
+ttyio.c
+unreduce.c
+unshrink.c
+unzip.c
+win32.c
+zipinfo.c
+Linking...
+
+
+
+uzip.exe - 0 error(s), 0 warning(s)

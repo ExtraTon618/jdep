@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jdepends", "jdepends.vcproj", "{73A34868-76FB-4B3A-AA36-B1CA1C840ED2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uzip", "..\uzip\uzip.vcproj", "{89A314A1-5581-4244-84F9-F3BAC2A5FA6D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlib", "..\dlib\dlib.vcproj", "{C613E459-D2D3-4C60-BBF4-D7E1A93A56D8}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectName0 = \u0022$/JDEPENDS\u0022,\u0020OACAAAAA
+		SccLocalPath0 = ..\\..\\..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = jvm\\src\\jdepends\\
+		SolutionUniqueID = {E9C66339-57AA-4AE3-BF0A-45466E5C7D73}
+		SccProjectUniqueName1 = ..\\dlib\\dlib.vcproj
+		SccLocalPath1 = ..\\..\\..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = jvm\\src\\dlib\\
+		SccProjectUniqueName2 = jdepends.vcproj
+		SccLocalPath2 = ..\\..\\..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = jvm\\src\\jdepends\\
+		SccProjectUniqueName3 = ..\\uzip\\uzip.vcproj
+		SccLocalPath3 = ..\\..\\..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = jvm\\src\\uzip\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{73A34868-76FB-4B3A-AA36-B1CA1C840ED2}.0 = {C613E459-D2D3-4C60-BBF4-D7E1A93A56D8}
+		{73A34868-76FB-4B3A-AA36-B1CA1C840ED2}.1 = {89A314A1-5581-4244-84F9-F3BAC2A5FA6D}
+		{C613E459-D2D3-4C60-BBF4-D7E1A93A56D8}.0 = {89A314A1-5581-4244-84F9-F3BAC2A5FA6D}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{73A34868-76FB-4B3A-AA36-B1CA1C840ED2}.Debug.ActiveCfg = Debug|Win32
+		{73A34868-76FB-4B3A-AA36-B1CA1C840ED2}.Debug.Build.0 = Debug|Win32
+		{73A34868-76FB-4B3A-AA36-B1CA1C840ED2}.Release.ActiveCfg = Release|Win32
+		{73A34868-76FB-4B3A-AA36-B1CA1C840ED2}.Release.Build.0 = Release|Win32
+		{89A314A1-5581-4244-84F9-F3BAC2A5FA6D}.Debug.ActiveCfg = Debug|Win32
+		{89A314A1-5581-4244-84F9-F3BAC2A5FA6D}.Debug.Build.0 = Debug|Win32
+		{89A314A1-5581-4244-84F9-F3BAC2A5FA6D}.Release.ActiveCfg = Release|Win32
+		{89A314A1-5581-4244-84F9-F3BAC2A5FA6D}.Release.Build.0 = Release|Win32
+		{C613E459-D2D3-4C60-BBF4-D7E1A93A56D8}.Debug.ActiveCfg = Debug|Win32
+		{C613E459-D2D3-4C60-BBF4-D7E1A93A56D8}.Debug.Build.0 = Debug|Win32
+		{C613E459-D2D3-4C60-BBF4-D7E1A93A56D8}.Release.ActiveCfg = Release|Win32
+		{C613E459-D2D3-4C60-BBF4-D7E1A93A56D8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
