@@ -2,7 +2,7 @@
 /*                                                                          */
 /*                                                                          */
 /*  This code and any software associated is covered by                     */
-/*  GNU Lesser General Public License (LGPL)                                        */
+/*  MIT License                                      */
 /*                                                                          */
 /*  Author: Gopal Ananthraman                                               */
 /*                                                                          */
